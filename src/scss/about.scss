@@ -1,0 +1,16 @@
+body {
+    p {
+        font-size: 30px;
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+}
+
+main {
+    color: #000;
+    span {
+        color: #000;
+        font-size: 30px;
+    }
+}

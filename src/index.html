@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head.html -->
+@@include('blocks/head.html', {
+"title": "Главная",
+"style": "style.min.css",
+})
+
+<body>
+    <div class="wrapper">
+        <!-- header.html -->
+        @@include('blocks/header.html', {})
+
+        <main class="main">
+
+            <section class="main__banner">
+                <div class="banner__container">
+                    <div class="banner__block">
+                         <div class="banner__equipment">
+                            <div class="equipment__background">
+                                <img src="@img/main/banner/background.png" alt="">
+                            </div>
+                            <h2 class="equipment__title bem-title__white">оборудование для майнинга оптом</h2>
+                            <p class="equipment__subtitle">с гарантией 12 месяцев</p>
+                            <button class="equipment__button bem-button__white">Перейти в каталог</button>
+                            <div class="equipment__slider">
+                                <div class="equipment__slide">
+                                    <img src="@img/main/banner/equipment.svg" alt="">
+                                </div>
+                                <!-- <div class="equipment__slide">
+                                    <img src="@img/main/banner/video-card.svg" alt="">
+                                </div> -->
+                                <!-- <div class="equipment__slide">
+                                    <img src="@img/main/category/video-card.svg" alt="">
+                                </div> -->
+                                <!-- <div class="equipment__slide">
+                                    <img src="@img/main/category/device-materials.svg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+
+                         <div class="banner__profit">
+                            <h2 class="profit__title bem-title__white">выгодное <br>предложение</h2>
+                            <div class="profit__discounts">
+                                <span>-20%</span>
+                                <p>на все товары Antminer</p>
+                            </div>
+                            <a href="" class="profit__link">
+                                В каталог
+                                <img src="@img/main/banner/vector.svg" alt="">
+                            </a>
+                            <div class="profit__image">
+                                <img src="@img/main/banner/bitcoin.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__category">
+                <div class="category__container">
+                    <div class="category__block">
+                        <h2 class="categoty__title bem-title__blue">категории товаров</h2>
+                        <div class="category__cards">
+                            <div class="category__card ctgr-card">
+                                <!-- before псевдоэлемент шара -->
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/asic.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>Asic miners оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="category__card ctgr-card">
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/gpu.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>GPU фермы оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="category__card ctgr-card">
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/video-card.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>Видеокарты оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="category__card ctgr-card">
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/accessories.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>Аксессуары оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="category__card ctgr-card">
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/details.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>Компьютерные комплектующие оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="category__card ctgr-card">
+                                <div class="ctgr-card__img">
+                                    <img src="@img/main/category/device-materials.svg" alt="">
+                                </div>
+                                <div class="ctgr-card__info">
+                                    <p>Комплектующие для майнинга оптом</p>
+                                    <a href="" class="ctgr-card__link">
+                                        В каталог
+                                        <img src="@img/main/category/arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__advantages">
+                <div class="advantages__container">
+                    <div class="advantages__block">
+                        <div class="advantages__bcg">
+                            <img src="@img/main/advantages/background.png" alt="">
+                        </div>
+                        <div class="advantages__image">
+                            <img src="@img/main/advantages/image.svg" alt="">
+                        </div>
+                        <h2 class="advantages__title bem-title__white">наши преимущества</h2>
+                        <div class="advantages__items">
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Более 5 лет успешной работы</p>
+                            </div>
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Сотни положительных отзывов</p>
+                            </div>
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Работаем по всей России</p>
+                            </div>
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Сотрудничество с производителем</p>
+                            </div>
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Гарантия на оборудование</p>
+                            </div>
+                            <div class="advantages__item adv-item">
+                                <div class="adv-item__vector">
+                                    <img src="@img/main/advantages/vector.svg" alt="">
+                                </div>
+                                <p>Собственный склад в Москве</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__hits">
+                <div class="hits__container">
+                    <div class="hits__block">
+                        <h2 class="hits__title bem-title__blue">хиты продаж</h2>
+                        <div class="hits__cards">
+                            <!-- вывод 10 главных товаров через бэк -->
+                            <!-- Через JS получаю коллекцию и навешиваю на нечетные класс сокрытия  -->
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_1.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Antminer L7 8800 Mh/s</span>
+                                    <p>В наличии</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>615 000 ₽</span>
+                                        <p>315 000 ₽</p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>sale</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_2.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Antminer S19j pro 110 Th/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>245 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>new</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_3.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Whatsminer M3x 12.5 Th/s</span>
+                                    <p>В наличии</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>14 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>sale</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_4.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Antminer Z15e 200 ksol</span>
+                                    <p>В наличии</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>290 000 ₽</span>
+                                        <p>325 000 ₽</p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+
+
+
+
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                            <div class="hits__card hit-card">
+                                <div class="hit-card__favourite">
+                                    <div class="hit-card__favourite-type">
+                                        <p>хит</p>
+                                    </div>
+                                    <button class="hit-card__favourite-button">
+                                        <img src="@img/main/hits/heart.svg" alt="">
+                                        <img src="@img/main/hits/heart-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="hit-card__image">
+                                    <img src="@img/main/hits/hit_5.svg" alt="">
+                                </div>
+                                <div class="hit-card__info">
+                                    <span>Innosilicon A11 1500 Mh/s</span>
+                                    <p>Под заказ</p>
+                                </div>
+                                <div class="hit-card__price">
+                                    <div class="hit-card__price-value">
+                                        <span>173 000 ₽</span>
+                                        <p></p>
+                                    </div>
+                                    <button class="hit-card__price-button">
+                                        <img src="@img/main/hits/bucket.svg" alt="">
+                                        <img src="@img/main/hits/bucket-active.svg" alt="">
+                                    </button>
+                                </div>
+                                <button class="hit-card__button bem-button__blue">Купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="hits__spoiler">
+                            <button class="hits__spoiler-more hits__spoiler-button">Показать ещё</button>
+                            <button class="hits__spoiler-less hits__spoiler-button hidden">Показать меньше</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__about">
+                <div class="about__container">
+                    <div class="about__block">
+                        <div class="about__preview">
+                            <div class="about__preview-text">
+                                <h2 class="about__preview-title bem-title__blue">о компании</h2>
+                                <p> С 2017 года Main-miner поставляет технику для майнинга на российский рынок оптом. За пять лет мы смогли укрепить свои позиции на рынке оборудования, вырастили персонал, прекрасно разбирающийся в каждом типе асиков и комплектующих.</p>
+                                <p>Если вы хотите купить асики оптом, то с нами можете быть уверены как в качестве техники, так и в надёжности сотрудничества. Лучше всего о нас говорит репутация!</p>
+                             </div>
+                             <div class="about__preview-image">
+                                <img src="@img/main/about/image.png" alt="image">
+                             </div>
+                        </div>
+                        <div class="about__cards">
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/1.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Работаем без выходных – 7 дней в неделю</p>
+                            </div>
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/2.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Прямое сотрудничество с поставщиками</p>
+                            </div>
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/3.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Быстрая авиадоставка от 14 дней</p>
+                            </div>
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/4.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Предоплата за предзаказ от 30%</p>
+                            </div>
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/5.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Официальный договор, полная защита средств</p>
+                            </div>
+                            <div class="about__card ab-card">
+                                <div class="ab-card__logo">
+                                    <div class="ab-card__cnt">
+                                        <img src="@img/main/about/6.svg" alt="">
+                                    </div>
+                                </div>
+                                <p>Видеопроверка для удаленных клиентов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__form">
+                <div class="form__container">
+                    <div class="form__block pers-data">
+                        <div class="pers-data__bcg">
+                            <img src="@img/main/form/background.png" alt="">
+                        </div>
+                        <h2 class="form__block-title bem-title__white">
+                            не нашли то, что искали?<br>свяжитесь с нами, мы вам поможем!
+                        </h2>
+                        <p class="form__block-subtitle">
+                            Заполните форму и мы свяжемся с Вами в ближайшее время
+                        </p>
+                        <div class="form-block__pers-data">
+                            <form action="" class="pers-data__form">
+                                <!-- Поля с required, но для них пишется отдельно JS с выводом ошибки -->
+                                <div class="pers-data__input input-field__bem">
+                                    <input id="user_name" class="form-call__input" name="username" type="text" placeholder="Ваше имя">
+                                </div>
+                                <div class="pers-data__input input-field__bem">
+                                    <input id="user_phone" class="form-call__input" name="user_phone" value="" type="tel" placeholder="Ваш телефон">
+                                </div>
+
+                                <button id="submit_form-call" type="submit" class="pers-data__button bem-button__white">Отправить</button>
+
+                                <div class="pers-data__checkbox">
+                                    <input required checked id="agreement-1" type="checkbox" name="agreement" value="">
+                                    <label for="agreement-1" class="custom-checkbox">
+                                        <img src="@img/main/form/vector.svg" alt="vector">
+                                    </label>
+                                    <p>Согласен на обработку <a href="">персональных данных</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__contacts">
+                <div class="contacts__container">
+                    <div class="contacts__block">
+                        <div class="contacts__data">
+                            <h2 class="contacts__data-title bem-title__blue">контакты</h2>
+                            <div class="contacts__data-info">
+                                <div class="contact__data-info">
+                                    <img src="@img/main/contacts/point.svg" alt="">
+                                    <p>г. Москва, ул. Покровка, 47А</p>
+                                </div>
+                                <div class="contact__data-info">
+                                    <img src="@img/main/contacts/metro.svg" alt="">
+                                    <p>м. Курская</p>
+                                </div>
+                                <div class="contact__data-info">
+                                    <img src="@img/main/contacts/mail.svg" alt="">
+                                    <p>max@mainers.com</p>
+                                </div>
+                                <div class="contact__data-info">
+                                    <img src="@img/main/contacts/phone.svg" alt="">
+                                    <p>+7 (999) 999-99-99</p>
+                                </div>
+                                <div class="contact__data-info">
+                                    <img src="@img/main/contacts/time.svg" alt="">
+                                    <p>График работы:<br> ежедневно с 9:00 до 20:00</p>
+                                </div>
+                            </div>
+                            <div class="contacts__data-messengers">
+                                <div class="contacts__data-messenger">
+                                    <a href=""><img src="@img/main/contacts/telegram.svg" alt=""></a>
+                                </div>
+                                <div class="contacts__data-messenger">
+                                    <a href=""><img src="@img/main/contacts/whatsapp.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts__map-cnt">
+                            <div class="contacts__map-view" id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SVG-sprite -->
+            <!-- <img src="img/icons/icons.svg#alfa" class="svg-apple-mobile-dims" alt="apple-mobile"/> -->
+        </main>
+
+        <!-- footer.html -->
+        @@include('blocks/footer.html', {})
+    </div>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=cf01bbbf-d22f-40ac-aa8c-3c53dc677286" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

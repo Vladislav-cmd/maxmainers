@@ -1,0 +1,153 @@
+<!-- Родитель для меню бургера -->
+<header class="header">
+    <section class="header__top">
+        <div class="top-head__container">
+             <div class="top-head__block">
+                <div class="top-head__contacts">
+                    <div class="top-head__contact">
+                        <a href="mailto:max@mainers.com"><img src="@img/header/mail.svg" alt="mail"></a>
+                        <a href="mailto:max@mainers.com">max@mainers.com</a>
+                    </div>
+                    <div class="top-head__contact">
+                        <a href="tel:+79999999999"><img src="@img/header/phone.svg" alt="phone"></a>
+                        <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+                    </div>
+                </div>
+                <div class="top-head__messangers">
+                    <div class="top-head__messanger">
+                        <a href=""><img src="@img/header/telegram.svg" alt="telegram"></a>
+                    </div>
+                    <div class="top-head__messanger">
+                        <a href=""><img src="@img/header/whatsapp.svg" alt="whatsapp"></a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="header__bot">
+        <div class="bot-head__container">
+            <div class="bot-head__block">
+                <div class="bot-head__logo">
+                    <a href="">maxmainers</a>
+                </div>
+                <div class="bot-head__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="about.html" class="menu__link catalog-link">Каталог товаров</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Калькулятор</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="bot-head__actions">
+                    <div class="head-actions">
+                        <!-- Переходит в бургер -->
+                        <button class="head-action call-action bem-button__blue">Заказать звонок</button>
+                        <!-- Переходит в бургер -->
+                        <div class="head-action">
+                            <!-- Будет попап с полем для поиска на десктопе-->
+                            <a href="#popup__search" class="search-action action-icon popup__link">
+                                <img src="@img/header/search.svg" alt="search">
+                            </a>
+                        </div>
+                        <div class="head-action">
+                            <a href="" class="favourite-action action-icon">
+                                <img src="@img/header/favourite.svg" alt="favourite">
+                                <span class="count-value active">3</span>
+                            </a>
+                        </div>
+                        <div class="head-action">
+                            <a href="" class="bucket-action action-icon">
+                                <img src="@img/header/bucket.svg" alt="bucket">
+                                <span class="count-value active">6</span>
+                            </a>
+                        </div>
+                        <div class="head-action__burger">
+                            <button class="header__burger-button">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Новое меню для бургера -->
+    <section class="burger-menu__block">
+        <div class="burger-menu__search">
+            <form id="" action="" method="">
+                <input maxlength="" placeholder="Поиск" type="text" class="search-field">
+                <button type="submit" class="search-button"><img src="@img/header/search.svg" alt=""></button>
+            </form>
+        </div>
+        <div class="bot-head__menu-burger menu">
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="about.html" class="menu__link catalog-link">Каталог товаров</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Калькулятор</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Калькулятор</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="top-head__contacts-burger">
+            <div class="top-head__contact-burger">
+                <a href="mailto:max@mainers.com"><img src="@img/header/mail-mob.svg" alt="mail-mob"></a>
+                <a href="mailto:max@mainers.com">max@mainers.com</a>
+            </div>
+            <div class="top-head__contact-burger">
+                <a href="tel:+79999999999"><img src="@img/header/phone-mob.svg" alt="phone-mob"></a>
+                <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+            </div>
+        </div>
+        <div class="burger-menu__calls">
+            <button class="head-action call-action-burger bem-button__blue">Заказать звонок</button>
+            <div class="top-head__messangers">
+                <div class="top-head__messanger">
+                    <a href=""><img src="@img/header/telegram-mob.svg" alt="telegram-mob"></a>
+                </div>
+                <div class="top-head__messanger">
+                    <a href=""><img src="@img/header/whatsapp-mob.svg" alt="whatsapp-mob"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Попап поиска -->
+    <div id="popup__search" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <div class="popup__search-field">
+                    <form id="" action="" method="">
+                        <input maxlength="" placeholder="Поиск..." type="text" class="popup__search-input">
+                        <!-- Здесь без close-popup должна происходить перенаправление на страницу с результатом поиска -->
+                        <button type="submit" class="search-button close-popup"><img src="@img/header/search.svg" alt=""></button>
+                    </form>
+                </div>
+                
+                <a href="#header" class="close-popup">X</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- ? RU|ENG text selector -->
+        <!-- ! писать JS -->
+        <!-- <div class="header__language-selector">
+            <button class="language-selector__russian lang_selector">RU</button>
+            <span>|</span>
+            <button class="language-selector__english lang_selector">ENG</button>
+        </div> -->
+
+        <!-- <div class="button__color-scheme">
+            <button type="button" class="button__change-theme"></button>
+            <button type="button" class="button__reset-theme"></button>
+        </div> -->
+    <!-- </div> -->
+</header>
